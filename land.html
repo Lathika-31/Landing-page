@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dream Landing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto Slab', serif;
+      background: #f0f9ff;
+    }
+    header {
+      background: #004466;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .feature-box {
+      background: white;
+     
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 10px;
+      flex: 1 1 200px;
+      max-width: 300px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+     
+
+    }
+    .feature-box:hover
+    {
+        border-radius: 8px;
+        background-color: darkgrey;
+        transform: scale(1.09);
+      
+
+    }
+    footer {
+      background: #003344;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dream Landing Page</h1>
+    <p>Bring your dreams to reality with design.</p>
+  </header>
+
+  <section>
+    <h2>Our Features</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Fast</h3>
+        <p>Lightning-fast load times for users.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Responsive</h3>
+        <p>Looks great on all devices.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Unique</h3>
+        <p>Design tailored just for your brand.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br><br>
+      <input type="email" placeholder="Your Email" required><br><br>
+      <textarea placeholder="Your Message"></textarea><br><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Dream Landing. All rights reserved.
+  </footer>
+
+</body>
+</html>
